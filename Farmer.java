@@ -37,4 +37,13 @@ public class Farmer {
     public void setdObjectCoins(double dObjectCoins) {
         this.dObjectCoins = dObjectCoins;
     }
+
+    public double computeCost(double dCost) {
+        double dUpdatedObjectCoins = getdObjectCoins();
+
+        dUpdatedObjectCoins = dUpdatedObjectCoins - dCost;
+
+        return dUpdatedObjectCoins;
+    }
+
 }

@@ -90,6 +90,5 @@ public class Plants {
     public void display(int i) {
         System.out.print("[" + i + "]" + strSeedName + "\t\t " + iWaterNeeds+ "\t\t\t\t\t");
         System.out.print(iFertilizerNeeds + "\t\t\t\t" + iHarvestTime+ "\t\t\t  " + dSeedCost + "\n");
-
     }
 }

@@ -73,8 +73,8 @@ public class Stats { // DO NOT EDIT
 
     @Override
     public String toString() { // YOU COULD EDIT
-        return "Updated Progress: [Times Planted=" + timesPlanted + ", Times Plowed=" + timesPlowed + ", Times Watered=" + timesWatered
-                + ", Times Fertilized=" + timesFertilized + ", Times Harvested=" + timesHarvested
-                + ", Times Harvested Successfully=" + timesHarvestedSuccessfully + "]"; // YOU COULD EDIT
+        return "Updated Progress: [Times Plowed = " + timesPlowed + ", Times Planted = " + timesPlanted + ", Times Watered = " + timesWatered
+                + ", Times Fertilized = " + timesFertilized + ", Times Harvested = " + timesHarvested
+                + ", Times Harvested Successfully = " + timesHarvestedSuccessfully + "]\n\n"; // YOU COULD EDIT
     }
 }

@@ -9,6 +9,8 @@ public class Tools {
     public static Tile.TileStatus WaterCan = Tile.TileStatus.WATERED;
     public static Tile.TileStatus Fertilizer = Tile.TileStatus.FERTILIZED;
 
+    private int iFertilizerCost = 10;
+
     public boolean isPlowed() {
         return plowed;
     }
@@ -33,4 +35,11 @@ public class Tools {
         this.fertilized = fertilized;
     }
 
+    public int getiFertilizerCost() {
+        return iFertilizerCost;
+    }
+
+    public void setiFertilizerCost() {
+        this.iFertilizerCost = 10;
+    }
 }

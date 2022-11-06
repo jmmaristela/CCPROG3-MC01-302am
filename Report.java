@@ -26,6 +26,6 @@ public class Report { // DO NOT EDIT
 
     @Override
     public String toString() { // YOU COULD EDIT
-        return "Status Report: [success=" + success + ", message=" + message + "]"; // YOU COULD EDIT
+        return "Status Report: [success =" + success + ", message =" + message + "]"; // YOU COULD EDIT
     }
 }
